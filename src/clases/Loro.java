@@ -6,14 +6,21 @@ public class Loro extends Animal {
 			String desplazamiento) {
 		super(estructura, alimentacion, tipoReproduccion, habitat, desplazamiento);
 		// TODO Auto-generated constructor stub
-	}
-	
-	public void Hablarle() {
+		
+		// estructura; Vertebrado o Invertebrado
+		// alimentacion; Herbiboro, Carnivoro, Omnivoro
+		// tipoReproduccion; Oviparo, Vivíparos, Ovoviviparos
+		// habitat; tierra, agua, ambos
+		// desplazamiento; camina, nada, vuela, repta
 		
 	}
 	
-	public void Liberar() {
-		
+	public void hablarle(String oracion) {
+		System.out.print("El loro dice '" + oracion + "'.");
+	}
+	
+	public void liberar() {
+		System.out.print("El loro está libre.");
 	}
 
 }
