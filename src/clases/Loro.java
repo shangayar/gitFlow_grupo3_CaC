@@ -16,11 +16,11 @@ public class Loro extends Animal {
 	}
 	
 	public void hablarle(String oracion) {
-		System.out.print("El loro dice '" + oracion + "'.");
+		System.out.print("El loro dice '" + oracion + "'. \n");
 	}
 	
 	public void liberar() {
-		System.out.print("El loro está libre.");
+		System.out.print("El loro está libre. \n");
 	}
 
 }
