@@ -1,1 +1,1 @@
-Proyecto para practicas con Git del grupo 3.
+Proyecto para practicas con Git del grupo 3 de Java avanzado.
